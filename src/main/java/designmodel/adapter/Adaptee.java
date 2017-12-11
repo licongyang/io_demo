@@ -7,6 +7,7 @@ public class Adaptee{
 		for(int i = 0; i < exp; i++){
 			result *= base;
 		}
+		//tijiao
 		return result;
 	}
 }
