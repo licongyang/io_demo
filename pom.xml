@@ -112,15 +112,15 @@
 					</includeSchemaBindings>
 					<verbose>true</verbose>
 				</configuration>
-				<executions>
-					<execution>
-						<id>jibx-bind</id>
-						<phase>compile</phase><!--把jibx绑定到了comile编译阶段 -->
-						<goals>
-							<goal>bind</goal>
-						</goals>
-					</execution>
-				</executions>
+<!-- 				<executions> -->
+<!-- 					<execution> -->
+<!-- 						<id>jibx-bind</id> -->
+<!-- 						<phase>compile</phase>把jibx绑定到了comile编译阶段 -->
+<!-- 						<goals> -->
+<!-- 							<goal>bind</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
+<!-- 				</executions> -->
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
